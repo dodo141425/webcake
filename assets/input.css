@@ -1,4 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'kanit';
+    src: url(/font/Kanit-SemiBold.ttf);
+}
+body{
+    font-family: 'kanit', sans-serif;
+}
+.full-screen{
+    height: 100vh;
+}
 
+.hero {
+    font-family: 'kanit', sans-serif;
+    background-image: url('/assets/1014229.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
